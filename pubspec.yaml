@@ -1,0 +1,31 @@
+name: ciguard
+description: "CiGuard — gestionnaire de mots de passe chiffré, déverrouillage mot de passe maître + empreinte."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  local_auth: ^3.0.2
+  local_auth_android: ^2.2.0
+  cryptography: ^2.9.0
+  path_provider: ^2.1.6
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Geist
+      fonts:
+        - asset: assets/fonts/Geist.ttf
+    - family: GeistMono
+      fonts:
+        - asset: assets/fonts/GeistMono.ttf
